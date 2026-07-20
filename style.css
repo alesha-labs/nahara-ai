@@ -167,3 +167,109 @@ nav{
 }
 
 }
+/* ===========================
+   SECTION : WHY NAHARA AI
+=========================== */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.why{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.section-title{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.section-title .badge{
+    display:inline-block;
+    background:#EEF2FF;
+    color:#6D5EF5;
+    padding:8px 18px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.section-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.section-title p{
+    font-size:18px;
+    line-height:1.8;
+    color:#6B7280;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.why-card{
+    background:#fff;
+    border:1px solid #E5E7EB;
+    border-radius:20px;
+    padding:35px;
+    transition:.3s;
+    box-shadow:0 10px 30px rgba(0,0,0,.04);
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(109,94,245,.15);
+}
+
+.why-card .icon{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.why-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.why-card p{
+    color:#6B7280;
+    line-height:1.8;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.why{
+    padding:70px 0;
+}
+
+.section-title h2{
+    font-size:30px;
+}
+
+.section-title p{
+    font-size:16px;
+}
+
+.why-grid{
+    grid-template-columns:1fr;
+}
+
+.why-card{
+    padding:25px;
+}
+
+}
