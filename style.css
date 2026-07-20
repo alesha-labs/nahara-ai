@@ -1,1 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f8fafc;
+    color:#111827;
+}
+
+header{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:white;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.logo h2{
+    color:#6D5EF5;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#374151;
+    font-weight:600;
+}
+
+.menu-button{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.menu-button a{
+    text-decoration:none;
+    color:#374151;
+}
+
+.menu-button button{
+    background:#6D5EF5;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.hero{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding:80px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.badge{
+    display:inline-block;
+    background:#ede9fe;
+    color:#6D5EF5;
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:52px;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:1.8;
+    color:#6b7280;
+}
+
+.hero-button{
+    margin-top:35px;
+    display:flex;
+    gap:15px;
+}
+
+.hero-button button{
+    padding:14px 28px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero-button button:first-child{
+    background:#6D5EF5;
+    color:white;
+}
+
+.hero-button button:last-child{
+    background:white;
+    border:1px solid #d1d5db;
+}
+
+.hero-card{
+    flex:1;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.hero-card h3{
+    margin-bottom:15px;
+}
+
+.hero-card p{
+    margin-bottom:20px;
+}
+
+.hero-card ul{
+    list-style:none;
+}
+
+.hero-card li{
+    padding:12px 0;
+    border-bottom:1px solid #f1f5f9;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero-button{
+    justify-content:center;
+}
+
+}
